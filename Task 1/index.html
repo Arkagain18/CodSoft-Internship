@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Arka Gain</h1>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container about">
+        <div class="about-img">
+            <img src="about.jpg" alt="Arka Gain" />
+        </div>
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>
+            Hi, I'm Arka Gain from Kolkata, currently pursuing B.Tech at Narula Institute of Technology with a CGPA of 8.74. I'm passionate about coding and have experience in C, C++, Python, Java, and web technologies like HTML, CSS, JavaScript, and ReactJS.
+            I've built projects including an Amazon clone and web-based games. I'm also active in competitive programming, with 3-star ratings in Python and C++ on HackerRank.
+            I thrive in creative, open environments, constantly seeking to learn, innovate, and grow.
+            </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+
+            <ul class="skills-list">
+                <li>C</li>
+                <li>C++</li>
+                <li>JAVA</li>
+                <li>Python</li>
+            </ul>
+
+            <ul class="skills-list">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React.js</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </div>
+    </section>
+
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project-card">
+          <img src="Razorpay_img.png" alt="Project 1" />
+          <h3>Razorpay Clone Website</h3>
+          <p>A modern responsive clone website using React JS and Tailwind CSS</p>
+        </div>
+        <div class="project-card">
+          <img src="Currency_img.png" alt="Project 2" />
+          <h3>Currency Converter App</h3>
+          <p>Fetches currency data using an API and displays it beautifully.</p>
+        </div>
+        <div class="project-card">
+          <img src="Tic_img.png" alt="Project 3" />
+          <h3>Tic-Tac-Toe Game</h3>
+          <p>A simple game using HTML, CSS and JavaScript</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume" class="section">
+    <div class="container">
+      <h2>Resume</h2>
+      <a href="Arka gain.pdf" class="btn" download>Download Resume</a>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: gainarka@gmail.com</p>
+      <p>Phone: +91-98366 40048</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Arka Gain. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
