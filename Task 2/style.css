@@ -1,4 +1,3 @@
-/* Reset & Base Styles */
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +11,7 @@ body {
   background-color: #000;
 }
 
-/* Navbar */
+
 .navbar {
   position: absolute;
   width: 100%;
@@ -20,7 +19,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  background: rgba(0, 0, 0, 0.1);  /* Transparent navbar */
+  background: rgba(0, 0, 0, 0.1);  
   z-index: 1000;
 }
 
@@ -139,7 +138,6 @@ footer {
   color: #aaa;
 }
 
-/* ... Previous styles remain unchanged ... */
 
 /* Hamburger Icon */
 .hamburger {
